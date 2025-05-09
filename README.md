@@ -32,25 +32,24 @@ Files used:
 
 #### Explore the Data Using Pandas
 
+```python
 train_fname = 'data/train.csv.zip'
 raw_df = pd.read_csv(train_fname)
 raw_df
+````
+### 📊 Sample of Training Data
 
-   qid                                  	question_text	                 target
-0	00002165364db923c7e6	How did Quebec nationalists see their province...	0
-1	000032939017120e6e44	Do you have an adopted dog, how would you enco...	0
-2	0000412ca6e4628ce2cf	Why does velocity affect time? Does velocity a...	0
-3	000042bf85aa498cd78e	How did Otto von Guericke used the Magdeburg h...	0
-4	0000455dfa3e01eae3af	Can I convert montra helicon D to a mountain b...	0
-...	...	...	...
-1306117	ffffcc4e2331aaf1e41e	What other technical skills do you need as a c...	0
-1306118	ffffd431801e5a2f4861	Does MS in ECE have good job prospects in USA ...	0
-1306119	ffffd48fb36b63db010c	Is foam insulation toxic?	0
-1306120	ffffec519fa37cf60c78	How can one start a research project based on ...	0
-1306121	ffffed09fedb5088744a	Who wins in a battle between a Wolverine and a...	0
+| qid                 | question_text                                           | target |
+|---------------------|---------------------------------------------------------|--------|
+| 00002165364db923c7e6 | How did Quebec nationalists see their province...       | 0      |
+| 000032939017120e6e44 | Do you have an adopted dog, how would you enco...       | 0      |
+| 0000412ca6e4628ce2cf | Why does velocity affect time? Does velocity a...       | 0      |
+| 000042bf85aa498cd78e | How did Otto von Guericke used the Magdeburg h...       | 0      |
+| 0000455dfa3e01eae3af | Can I convert montra helicon D to a mountain b...       | 0      |
 1306122 rows × 3 columns
 
-# Create the bar plot object
+#### Create the bar plot object
+```python
 ax = raw_df.target.value_counts(normalize=True).plot(
     kind='bar',
     color=['skyblue', 'salmon'],  # colors for bars
@@ -69,6 +68,7 @@ for p in ax.patches:
 
 plt.tight_layout()
 plt.show()
+````
 
 ![image](https://github.com/user-attachments/assets/e26bd9d2-b3bc-4d1a-95a9-f22b15557e3f)
 
@@ -114,6 +114,13 @@ Outline:
 - Train a logistic regression model
   
 - Make predictions on training, validation and test data.
+  
+- Assessing Model Accuracy
+  
+  ```python
+  accuracy_score(train_preds, train_targets)
+  0.9504285714285714
+  ```
 
-### 📤 Make Predictions and Submit to Kaggle
+### 📤 Make Predictions based on the fitted model
 
