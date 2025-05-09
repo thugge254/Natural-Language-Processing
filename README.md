@@ -123,4 +123,21 @@ Outline:
   ```
 
 ### 📤 Make Predictions based on the fitted model
+```shell
+!head submission.csv
+````
+### 📄 Sample Submission File (Top 10 Rows)
+
+| qid                 | prediction |
+|---------------------|------------|
+| 0000163e3ea7c7a74cd7 | 0          |
+| 00002bd4fb5d505b9161 | 0          |
+| 00007756b4a147d2b0b3 | 0          |
+| 000086e4b7e1c7146103 | 0          |
+| 0000c4c3fbe8785a3090 | 0          |
+| 000101884c19f3515c1a | 0          |
+| 00010f62537781f44a47 | 0          |
+| 00012afbd27452239059 | 0          |
+| 00014894849d00ba98a9 | 0          |
+
 
