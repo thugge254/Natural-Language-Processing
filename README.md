@@ -140,4 +140,85 @@ Outline:
 | 00012afbd27452239059 | 0          |
 | 00014894849d00ba98a9 | 0          |
 
+### Project Structure
+```
+|   .gitignore
+|   app.py
+|   Loan_default.csv
+|   Portfolio_Distribution.py
+|   Predictive_Insights.py
+|   Profitability_Analysis.py
+|   README.md
+|   requirements.txt
+|   Risk_Analysis.py
+|   tena-kata.jpg
+|   utils.py
+|   xgb_model.pkl
+|   
++---.vscode
+|       settings.json
+|       
++---assets
+|       loan_risk_prediction.png
+|       overview.png
+|       portfolio_distribution.png
+|       predictive_insights (2).png
+|       predictive_insights.png
+|       
+\---__pycache__
+        app.cpython-312.pyc
+        PA.cpython-312.pyc
+        PD.cpython-312.pyc
+        Portfolio_Distribution.cpython-312.pyc
+        Predictive_Insights.cpython-312.pyc
+        Profitability_Analysis.cpython-312.pyc
+        RA.cpython-312.pyc
+        Risk_Analysis.cpython-312.pyc
+        utils.cpython-312.pyc
+```
+### Installation
+
+#### Clone the Repository
+`git clone https://github.com/thugge254/tenakata-loan-dashboard.git`
+
+### Install Dependencies
+`pip install -r requirements.txt`
+
+### Run the Application
+`streamlit run app.py`
+
+## Screenshots
+
+### Study Topic
+![Overview Page](Question.png)
+
+### Portfolio Disrtribution Page
+
+![Portfolio Distribution](assets/portfolio_distribution.png)
+
+### Predictive Insights Page
+
+![Predictive Insights](assets/predictive_insights.png)
+
+
+## Author
+Moses Chege
+
+#### Data Analyst | SQL • Python •  R • Excel | Turning Data into Actionable Insights
+
+#### Skills
+- Python
+- scikit-learn
+- Machine Learning
+- Streamlit
+- Data Visualization
+
+
+### GitHub Repository:
+
+https://github.com/thugge254/Natural-Language-Processing
+
+#### License
+
+This project is open-source and available under the MIT License.
 
