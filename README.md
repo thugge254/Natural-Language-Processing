@@ -1,4 +1,4 @@
-# 🧠 Natural Language Classification: Quora Insincere Questions
+# 🧠 Natural Language Classification: Quora Insincere Questions (https://www.kaggle.com/competitions/quora-insincere-questions-classification/overview)
 
 ## 📌 Project Overview
 This project aims to classify questions from the Quora Insincere Questions Classification challenge using the Bag of Words (BoW) technique and traditional machine learning methods.
