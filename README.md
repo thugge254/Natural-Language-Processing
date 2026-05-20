@@ -142,7 +142,7 @@ Outline:
 
 ### Project Structure
 ```
-|   .gitignore
+
 |   app.py
 |   Loan_default.csv
 |   Portfolio_Distribution.py
@@ -192,13 +192,9 @@ Outline:
 ### Study Topic
 ![Overview Page](Question.png)
 
-### Portfolio Disrtribution Page
+### Code Overview
 
-![Portfolio Distribution](assets/portfolio_distribution.png)
-
-### Predictive Insights Page
-
-![Predictive Insights](assets/predictive_insights.png)
+![Portfolio Distribution](code.png)
 
 
 ## Author
